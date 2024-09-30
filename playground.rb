@@ -7,4 +7,14 @@
 
 puts "Hello World" # -- output a string (s) Hello World
 p "Hello world" #outputs "Hello World" (with quotations)
-print "Hello World" #prints Hello World (negating quotations)
+#print "Hello World" #prints Hello World (negating quotations and does not add new line)
+
+greeting = "Hello World!" # initialize string variable
+
+puts greeting
+
+def say_hello(phrase) #adds argument
+    puts phrase
+end
+
+say_hello "Hello World from a method's argument"
